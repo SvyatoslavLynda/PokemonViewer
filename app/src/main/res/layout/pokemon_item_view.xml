@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/cd_pokemon_list_image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pic_pokeball_disabled" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/primary_text_light" />
+</LinearLayout>

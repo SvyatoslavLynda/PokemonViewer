@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PokemonViewer</string>
+    <string name="cd_pokemon_list_image">Pokemon picture</string>
+    <string name="cd_error_image">Error picture</string>
+    <string name="error_message">Sorry, something went wrong.</string>
+    <string name="loading_message">Loading..</string>
+    <string name="weight_title">Weight</string>
+    <string name="weight_pattern" formatted="true">%1$.2f Kg</string>
+    <string name="height_title">Height</string>
+    <string name="height_pattern" formatted="true">%1$.2f m</string>
+    <string name="base_experience_title">Base experience</string>
+    <string name="abilities_title">Abilities: </string>
+
+</resources>
